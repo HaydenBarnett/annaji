@@ -36,7 +36,7 @@ const Home: NextPage = () => {
           <p>
             Head of Product of{" "}
             <Link href="https://clipchamp.com" passHref>
-              <a className="link" target="_blank">
+              <a className="link" target="_blank" rel="noreferrer">
                 Clipchamp
               </a>
             </Link>{" "}
@@ -46,12 +46,16 @@ const Home: NextPage = () => {
           <p>
             You can connect with me on{" "}
             <Link href="https://www.linkedin.com/in/annahji" passHref>
-              <a className="link" target="_blank">
+              <a className="link" target="_blank" rel="noreferrer">
                 LinkedIn
               </a>
             </Link>
             , or reach me by email -{" "}
-            <a className="link" href="mailto:anna@clipchamp.com">
+            <a
+              className="link"
+              href="mailto:anna@clipchamp.com"
+              rel="noreferrer"
+            >
               anna@clipchamp.com
             </a>
           </p>
