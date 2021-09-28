@@ -53,10 +53,10 @@ const Home: NextPage = () => {
             , or reach me by email -{" "}
             <a
               className="link"
-              href="mailto:anna@clipchamp.com"
+              href="mailto:annaji@microsoft.com"
               rel="noreferrer"
             >
-              anna@clipchamp.com
+              annaji@microsoft.com
             </a>
           </p>
         </div>
