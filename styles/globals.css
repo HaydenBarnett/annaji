@@ -16,6 +16,11 @@ body {
   margin: 0;
   font-family: "Work Sans", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height: 100%;
+}
+
+#__next {
+  height: 100%;
 }
 
 a {
@@ -70,7 +75,7 @@ p {
 }
 
 .wrapper {
-  height: 100vh;
+  height: 100%;
   display: flex;
   align-items: center;
   min-height: 380px;
@@ -93,4 +98,95 @@ p {
 
 .avatar img {
   border-radius: 55px;
+}
+
+.page-404 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-404 h1 {
+  margin: 0;
+  z-index: 10;
+}
+
+.page-404 .avatar {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -55px;
+  margin-top: -55px;
+  user-select: none;
+  pointer-events: none;
+}
+
+.page-404 .avatar > div {
+  overflow: visible !important;
+}
+
+.page-404 .avatar:nth-child(1) {
+  z-index: 5;
+  animation: 2s infinite linear spin;
+  opacity: 0.5;
+}
+
+.page-404 .avatar:nth-child(1) img {
+  filter: blur(1px);
+}
+
+.page-404 .avatar:nth-child(2) {
+  z-index: 4;
+  animation: 3s infinite linear spin;
+  opacity: 0.4;
+}
+
+.page-404 .avatar:nth-child(2) img {
+  filter: blur(2px);
+  transform: scale(2);
+}
+
+.page-404 .avatar:nth-child(3) {
+  z-index: 3;
+  animation: 4s infinite linear spin;
+  opacity: 0.3;
+}
+
+.page-404 .avatar:nth-child(3) img {
+  filter: blur(3px);
+  transform: scale(3);
+}
+
+.page-404 .avatar:nth-child(4) {
+  z-index: 2;
+  animation: 5s infinite linear spin;
+  opacity: 0.2;
+}
+
+.page-404 .avatar:nth-child(4) img {
+  filter: blur(4px);
+  transform: scale(4);
+}
+
+.page-404 .avatar:nth-child(5) {
+  z-index: 1;
+  animation: 6s infinite linear spin;
+  opacity: 0.1;
+}
+
+.page-404 .avatar:nth-child(5) img {
+  filter: blur(5px);
+  transform: scale(5);
+}
+
+@keyframes spin {
+  to {
+    transform: rotateZ(360deg);
+  }
 }
