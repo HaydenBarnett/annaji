@@ -24,8 +24,8 @@ const Error404: NextPage = () => {
         <Avatar />
         <Avatar />
         <h1>
-          <Link href="/" passHref>
-            <a className="link">404</a>
+          <Link href="/" className="link">
+            404
           </Link>
         </h1>
       </main>

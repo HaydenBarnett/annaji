@@ -35,20 +35,26 @@ const Home: NextPage = () => {
           <h1>Anna Ji</h1>
           <p>
             Head of Product of{" "}
-            <Link href="https://clipchamp.com" passHref>
-              <a className="link" target="_blank" rel="noreferrer">
-                Clipchamp
-              </a>
+            <Link
+              href="https://clipchamp.com"
+              className="link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Clipchamp
             </Link>{" "}
             at Microsoft, working to bring video editing online and accessible
             to everyone.
           </p>
           <p>
             You can connect with me on{" "}
-            <Link href="https://www.linkedin.com/in/annahji" passHref>
-              <a className="link" target="_blank" rel="noreferrer">
-                LinkedIn
-              </a>
+            <Link
+              href="https://www.linkedin.com/in/annahji"
+              className="link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
             </Link>
             , or reach me by email -{" "}
             <a
