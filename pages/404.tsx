@@ -3,14 +3,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
-const Avatar = () => {
-  return (
-    <div className="avatar">
-      <Image src="/avatar.jpg" width="110" height="110" alt="" />
-    </div>
-  );
-};
-
 const Error404: NextPage = () => {
   return (
     <>
@@ -18,16 +10,14 @@ const Error404: NextPage = () => {
         <title>Page not found</title>
       </Head>
       <main className="page-404">
-        <Avatar />
-        <Avatar />
-        <Avatar />
-        <Avatar />
-        <Avatar />
         <h1>
           <Link href="/" className="link">
-            404
+            4<span className="letter">0</span>4
           </Link>
         </h1>
+        <div className="avatar">
+          <Image src="/avatar.jpg" width="110" height="110" alt="" />
+        </div>
       </main>
     </>
   );
