@@ -132,7 +132,7 @@ p {
   margin-top: -55px;
   user-select: none;
   pointer-events: none;
-  animation: 2s infinite linear spin;
+  animation: 3s infinite linear spin;
 }
 
 @keyframes spin {
