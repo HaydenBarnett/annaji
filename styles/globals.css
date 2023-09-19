@@ -36,7 +36,7 @@ h1 {
   line-height: 1.4;
   text-align: center;
   margin: 0 0 40px;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.04em;
 }
 
 p {
@@ -44,7 +44,7 @@ p {
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
 }
 
 .link {
@@ -83,7 +83,7 @@ p {
 }
 
 .container {
-  width: 380px;
+  width: 370px;
   max-width: 100%;
   margin: 0 auto;
   padding: 0 20px;
@@ -95,6 +95,7 @@ p {
   height: auto;
   display: block;
   margin: 0 auto 25px auto;
+  user-select: none;
 }
 
 .avatar img {
