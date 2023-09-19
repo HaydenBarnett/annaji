@@ -56,14 +56,7 @@ const Home: NextPage = () => {
             >
               LinkedIn
             </Link>
-            , or reach me by email -{" "}
-            <a
-              className="link"
-              href="mailto:annaji@microsoft.com"
-              rel="noreferrer"
-            >
-              annaji@microsoft.com
-            </a>
+            .
           </p>
         </div>
       </main>
