@@ -34,7 +34,7 @@ const Home: NextPage = () => {
           </div>
           <h1>Anna Ji</h1>
           <p>
-            Head of Product of{" "}
+            Partner Head of Product of{" "}
             <Link
               href="https://clipchamp.com"
               className="link"
@@ -43,8 +43,8 @@ const Home: NextPage = () => {
             >
               Clipchamp
             </Link>{" "}
-            at Microsoft, working to bring video editing online and accessible
-            to everyone.
+            at Microsoft, working to democratise video editing and empowering
+            anyone to tell stories worth sharing.
           </p>
           <p>
             You can connect with me on{" "}
